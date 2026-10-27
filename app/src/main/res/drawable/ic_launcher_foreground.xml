@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera/Studio rounded frame badge in safe zone (center 54, 54) -->
+    <path
+        android:pathData="M38,28 L70,28 A10,10 0 0,1 80,38 L80,70 A10,10 0 0,1 70,80 L38,80 A10,10 0 0,1 28,70 L28,38 A10,10 0 0,1 38,28 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#383D4E">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="28"
+                android:endX="80"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#232734" android:offset="0.0" />
+                <item android:color="#171A24" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Play triangle with vibrant Indigo/Cyan gradient -->
+    <path
+        android:pathData="M46,40 L68,54 L46,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="40"
+                android:endX="68"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#4CD7F6" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#6366F1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Neural optical sparkle / node -->
+    <path
+        android:fillColor="#4CD7F6"
+        android:pathData="M69,37 L71,33 L73,37 L77,39 L73,41 L71,45 L69,41 L65,39 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "ReVideo AI",
+  "description": "Neural Video-to-Video Studio: AI video analysis with Gemini 4 Argon, prompt blueprint synthesis, and video generation with Gemini Omni 1.1 Flash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
